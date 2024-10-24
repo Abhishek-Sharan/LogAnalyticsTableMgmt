@@ -7,4 +7,9 @@
 
 This PowerShell script updates total retention period for log analytics tables at scale. The table names should be comma separated in the input prompt. 
 
+Update:
+
+Added checks for validating resource group, workspace & table names.
+Formatted output message for success and failure events.
+
 **Note:** We highly recommend you should review the PowerShell script thoroughly and do proper testing in controlled environment. We don't take any responsibility for the script.
